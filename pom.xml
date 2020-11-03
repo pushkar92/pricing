@@ -118,7 +118,7 @@
 				<version>1.12.0</version>
 				<configuration>
 					<schemaVersion>V2</schemaVersion>
-					<subscriptionId>e480a2a1-a59c-4b77-aa21-ffcbc8243f5f
+					<subscriptionId>hidden
 					</subscriptionId>
 					<resourceGroup>psaini8-01</resourceGroup>
 					<appName>spring-boot-pricing</appName>
