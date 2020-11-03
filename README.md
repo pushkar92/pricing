@@ -51,9 +51,9 @@ This will help us with the cases where products might not be in a store, sold ou
 
 2. Repos resides in "com.relayr.repo" package and uses Spring Data JPA which provides many queries out of the box and also helps write queries independent of DB used.
 
-3. Services uses "Programming to an Interface" pattern. Interfaces are in package "com.relayr.service" and their implementations in "com.relayr.service.impl". They communicate with repo and recommendation service and passes data to the controller layer.
+3. Services uses "Programming to an Interface" pattern. Interfaces are in package "com.relayr.service" and their implementations in "com.relayr.service.impl". They communicate with repo and passes data to the controller layer.
 
-4. The package "com.relayr.controller" provides the basic controllers.
+4. The package "com.relayr.controller" provides the basic controllers. PricingController is our main controller which returns list on the basis on product name and category.
 
 5. Other packages "com.relayr.config" and "com.relayr.processor" have basic configurations for Swagger and Batch.
 
